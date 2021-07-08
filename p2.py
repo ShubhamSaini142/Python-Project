@@ -5,6 +5,7 @@ import time
 print('Enter some skill you are not familiar with')
 unfamiliar_skill = input('>')
 print('Filtering Out', unfamiliar_skill)
+# program start
 
 
 def find_jobs():
