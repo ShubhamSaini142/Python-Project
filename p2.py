@@ -6,6 +6,7 @@ print('Enter some skill you are not familiar with')
 unfamiliar_skill = input('>')
 print('Filtering Out', unfamiliar_skill)
 # program start
+# checkrd
 
 
 def find_jobs():
@@ -32,6 +33,6 @@ def find_jobs():
 if __name__ == '__main__':
     while True:
         find_jobs()
-        wait_time = 5
+        wait_time = 1
         print("Waiting for", wait_time*60, "minutes...")
         time.sleep(wait_time*60)
